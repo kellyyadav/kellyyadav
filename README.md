@@ -2,9 +2,9 @@
 
 <div align="center">
 
-### 💻 Full Stack Developer | 🤖 AI Enthusiast | 🎨 Creative Coder
+### ☕ Java Backend Engineer | 🌐 Full Stack Developer | 🤖 AI Integration
 
-**Building real products that solve real problems** 💜
+**Building backend-first products that handle real-time data, GPS signals and AI APIs** 💜
 
 > *Chai + Code = Magic* ☕✨
 
@@ -21,8 +21,8 @@
       </a>
     </td>
     <td align="center" width="100">
-      <a href="https://kelly-yadav.github.io">
-        <img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
+      <a href="https://codearena-peach.vercel.app/">
+        <img src="https://img.shields.io/badge/Live%20Demo-FF6B6B?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
       </a>
     </td>
     <td align="center" width="100">
@@ -44,14 +44,16 @@
 
 ```python
 kelly = {
-    "role": "Full Stack Developer",
-    "location": "India 🇮🇳",
-    "education": "B.Tech CSE @ Mody University (2023-2027)",
+    "role": "Java Backend Engineer / Software Development Intern",
+    "location": "Meerut, India 🇮🇳",
+    "education": "B.Tech CSE @ Mody University of Science & Technology (2023–2027)",
     "status": "Open to Internships & Full-time Roles",
-    "focus": ["Building with AI APIs", "Real-time systems", "Scalable backends"],
-    "vibe": "Chai ☕ + Code 💻 + Creativity 🎨"
+    "focus": ["Java & Spring Boot backends", "Real-time systems", "AI API integration", "Docker & CI/CD"],
+    "vibe": "Chai ☕ + Code 💻 + Vibe Coding ✨"
 }
 ```
+
+I build backend-first products. My projects start with messy real-world input (noisy GPS coordinates, unstructured user descriptions, live multiplayer sessions) and turn it into something measurable and reliable. Outside code, I crochet, sketch and cook. I think the patience from craft carries over well to debugging. 🧶
 
 ---
 
@@ -61,11 +63,12 @@ kelly = {
 
 | 🏆 Achievement | 📈 Metric |
 |---|---|
-| **Unstop Rank** | #372 Engineering • #158 Women Globally |
-| **Live Projects** | 5+ Deployed & Live |
-| **Certifications** | 65+ Across Multiple Platforms |
-| **Internships** | 2 (Persist Ventures, Cognifyz Tech) |
-| **Hackathons** | Finalist @ GitLab IIT Bombay 2025 |
+| **Unstop Rank** | #372 Engineering • #158 Women |
+| **Problems Solved** | 250+ across platforms (LeetCode 50 Days Badge 2026) |
+| **Live Projects** | 4+ deployed (GeoTrust, CodeArena, CaloriQ, CyberShield) |
+| **Certifications** | 65+ across platforms |
+| **Internships** | 4 (AI Integration, Java Backend, Operations & Content, Java Developer) |
+| **Hackathons** | Finalist @ GitLab Hackathon, IIT Bombay (2025) • Project Finalist @ DevDelight |
 
 </div>
 
@@ -73,55 +76,74 @@ kelly = {
 
 ## 💼 Featured Projects
 
+### 📍 **GeoTrust** — GPS Correction & Spoof Detection Platform
+> *Spring Boot API with per-device Kalman filtering and a 0–100 trust score per GPS point*
+
+![Status: Live](https://img.shields.io/badge/Status-Live-green?style=flat-square)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+- 📡 REST APIs that ingest GPS coordinates and return per-device Kalman-filtered estimates
+- 🚨 Anomaly detection for impossible speeds and sudden location jumps
+- 🎯 0–100 trust score for every point
+- 🧪 Unit tests automated through GitHub Actions
+- 🗺️ Leaflet dashboard comparing raw and corrected routes, with flagged points highlighted
+
+**[🟢 Live Dashboard](https://geotrust-dashboard.vercel.app/)** | **[📚 GitHub](https://github.com/kellyyadav/Geotrust)**
+
+---
+
 ### 🔥 **CodeArena** — Real-Time Coding Battle Platform
-> *Anthropic API + Real-time multiplayer + AI evaluation*
+> *Live 1v1 coding battles in a Monaco Editor, with AI-generated challenges and hints*
 
 ![Status: Live](https://img.shields.io/badge/Status-Live-green?style=flat-square)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Anthropic API](https://img.shields.io/badge/Anthropic%20API-000000?style=flat-square&logo=openai&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square)
+![Claude API](https://img.shields.io/badge/Claude%20API-D97757?style=flat-square)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-- 🎮 16+ programming languages supported
-- 👥 50 concurrent users capability
-- 🤖 **Anthropic AI** for challenge generation & auto-evaluation
-- ⚡ Frontend optimized by ~30%
-- 🌐 Cross-browser compatible (5+ browsers)
+- 🤖 Claude API for challenge generation and context-aware hints
+- ⚡ WebSocket-based real-time communication for live battles
+- 🧑‍💻 Scenario-based challenges in Java, Python and JavaScript
+- 🔐 Google sign-in via Supabase Auth, with player profiles and solve history
+- 🏅 Warrior, Eagle and Divine badges based on solved questions
 
-**[🟢 Live Demo](https://codearena-peach.vercel.app/)** | **[📚 GitHub](https://github.com/kellyyadav/codearena)**
+**[🟢 Live Demo](https://codearena-peach.vercel.app/)** | **[📚 GitHub](https://github.com/kellyyadav)**
 
 ---
 
 ### 🥗 **CaloriQ** — AI-Powered Nutrition Tracker
-> *Full-stack AI tracker with personalised goals & real-time sync*
+> *Full-stack nutrition tracker with personalised goals and real-time sync*
 
 ![Status: Live](https://img.shields.io/badge/Status-Live-green?style=flat-square)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square)
 
-- 🤖 AI calorie estimation across 100+ foods
-- 🎯 Personalised health goals management
-- ⚡ Real-time Supabase data sync
-- 📉 Query optimization (~25% faster)
-- 📱 Responsive multi-device UI
+- 🍎 Hugging Face models for food image recognition
+- 🎯 Personalised health goals and daily calorie logging
+- ⚡ Real-time analytics and Supabase sync
+- 🔑 Supabase for authentication and database operations
+- 📱 Responsive interface for mobile and desktop
 
-**[🟢 Live Demo](https://caloriq-one.vercel.app/)** | **[📚 GitHub](https://github.com/kellyyadav/caloriq)**
+**[🟢 Live Demo](https://caloriq-one.vercel.app/)** | **[📚 GitHub](https://github.com/kellyyadav)**
 
 ---
 
-### 🛡️ **CyberShield** — Interactive Security Dashboard
-> *Real-time threat visualization with Canvas & CSS animations*
+### 🛡️ **CyberShield** — Cybersecurity Threat Visualization
+> *Real-time threat dashboard rendering hundreds of dynamic nodes*
 
 ![Status: Live](https://img.shields.io/badge/Status-Live-green?style=flat-square)
-![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=flat-square&logo=html5&logoColor=white)
-![Canvas API](https://img.shields.io/badge/Canvas%20API-FFD700?style=flat-square)
+![Canvas](https://img.shields.io/badge/Canvas-FFD700?style=flat-square)
+![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-- 📊 Real-time threat visualisations
-- 🎨 Advanced CSS3 animations
-- 🔐 Client-side authentication
-- 👥 3-member team Git workflow
+- 📊 Custom requestAnimationFrame loop for hundreds of dynamic threat nodes
+- 👥 Built by a three-member team using Git-based workflows and code reviews
 
-**[🟢 Live Demo](https://kellyyadav.github.io/cybershield/)** | **[📚 GitHub](https://github.com/kellyyadav/cybershield)**
+**[🟢 Live Demo](https://kellyyadav.github.io/cybershield/)** | **[📚 GitHub](https://github.com/kellyyadav)**
 
 ---
 
@@ -130,100 +152,117 @@ kelly = {
 <div align="center">
 
 ### Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=mysql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### Backend
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-4285F4?style=for-the-badge&logo=postman&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-ED8B00?style=for-the-badge)
+![Multithreading](https://img.shields.io/badge/Multithreading-333333?style=for-the-badge)
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Canvas API](https://img.shields.io/badge/Canvas-FFD700?style=for-the-badge&logo=html5&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-### Backend & Frameworks
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-4285F4?style=for-the-badge&logo=api&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge)
+![Canvas](https://img.shields.io/badge/Canvas%20%2F%20WebGL-FFD700?style=for-the-badge&logoColor=black)
 
 ### Databases & Cloud
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-### AI & APIs
-![Anthropic API](https://img.shields.io/badge/Anthropic%20API-000000?style=for-the-badge&logo=openai&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+### AI, Signals & Vision
+![Claude API](https://img.shields.io/badge/Claude%20API-D97757?style=for-the-badge)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black)
+![Kalman Filter](https://img.shields.io/badge/Kalman%20Filter-8B8CF8?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
-### DevTools & Version Control
+### DevOps & Tools
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 </div>
 
 ---
 
-## 🏆 Achievements & Recognition
+## 🏗️ System Design
+
+**GeoTrust pipeline:** GPS clients → REST ingest API (Spring Boot, Docker) → per-device Kalman filter → anomaly check → trust scorer (0–100) → PostgreSQL (Supabase) → Leaflet dashboard (Vercel)
+
+**CodeArena architecture:** React + Monaco → Supabase Auth → matchmaking queue → WebSocket channel → Postgres (questions, profiles, solves), with a serverless `/api/generate` route calling the Claude API so the key never reaches the browser.
+
+**Design decisions:**
+- **Kalman filter over moving average:** tracks real movement and damps jitter without lagging on turns.
+- **WebSockets over polling:** a persistent connection suits a live 1v1 better than repeated requests.
+
+---
+
+## 🏆 Achievements & Leadership
 
 | 🎖️ | Achievement |
 |---|---|
-| 🥇 | **#372 Engineering Rank** • **#158 Women Globally** on Unstop (65+ certifications) |
-| 🎯 | **Finalist** — GitLab Hackathon @ IIT Bombay 2025 |
-| 🚀 | **Project Finalist** — DevDelight Tech Hackathon |
-| 🤖 | **Shipped Real AI** — CodeArena with live Anthropic API integration |
-| 💼 | **Content Head** — Karuna Society (fundraising & strategy) |
-| 🌍 | **Member** — Rewriting the Code (RTC) - Global women-in-tech community |
-| 📝 | **Active** — Journalism Society (Engineum) |
-| 🎨 | **Winner** — Sustainable Poster Design Competition |
+| 🏆 | **Unstop: #372 Engineering • #158 Women** |
+| 🧠 | **250+ problems solved** across platforms, including the LeetCode 50 Days Badge (2026) |
+| 🎯 | **Finalist** — GitLab Hackathon, IIT Bombay (2025), Face Recognition Attendance System |
+| 🚀 | **Project Finalist** — DevDelight Hackathon, presented to an industry panel |
+| 🤖 | **Shipped AI integrations** — Claude API in CodeArena, Hugging Face in CaloriQ |
+| ❤️ | **Content Head** — Karuna Society, led content strategy across 8+ fundraising events |
+| 👩‍💻 | **Member** — Rewriting the Code (RTC), technical talks on system design and distributed systems |
+| 📰 | **Journalist** — Engineum Journalism Society, technical writing for college publications |
 
 ---
 
 ## 💡 What I Can Do
 
 ```
-✨ Full Stack Development       →  Frontend + Backend + Databases
-🤖 AI API Integration          →  Anthropic, Hugging Face, OpenAI
-⚡ Real-time Systems           →  WebSockets, live data sync
-🎨 UI/UX Design & Animation    →  Canvas, CSS3, Figma
-📊 Performance Optimization    →  Frontend & Backend tuning
-👥 Team Leadership             →  Led intern teams at Persist Ventures
-📹 Content & Communication     →  Tech writing, presentations, vibe coding
-🔒 Full-stack Security         →  JWT, authentication, secure APIs
+☕ Backend Development        →  Java, Spring Boot, REST APIs, OOP, multithreading
+🌐 Full Stack Products       →  React frontends, PostgreSQL/MySQL/Supabase data layers
+⚡ Real-time Systems         →  WebSockets, live data sync, matchmaking
+🤖 AI API Integration        →  Claude API, Hugging Face, prompt-driven features
+🛰️ Signal Processing         →  Kalman filtering, GPS smoothing, anomaly detection
+🐳 DevOps Basics             →  Docker, GitHub Actions, Linux, Render, Vercel
+👥 Team Leadership           →  Led an intern team at Persist Ventures
+✨ Vibe Coding & Teaching    →  Move fast with AI tools, then make it solid; taught Docker to peers
 ```
 
 ---
 
 ## 📈 Experience
 
-### **Operations & Content Intern** @ Persist Ventures (Jan – Feb 2026)
-- Led intern team with task delegation & deadline management
-- Oversaw content creation pipelines
-- Managed cross-functional communication
+**AI Integration Intern** @ Ambiguity Lab (Jul 2026)
+- Evaluated AI tools and integration workflows for application development pipelines
+- Configured and tested Linux and Docker environments for consistent build and verification
+- Guided teammates on Docker fundamentals and on integrating AI APIs
 
-### **Java Developer Intern** @ Cognifyz Technologies (Jun – Aug 2025)
-- Built Java projects: OOP, Data Structures, File Handling
-- Modular backend design with code reviews
-- Structured internship track with feedback cycles
+**Java Backend Developer Intern** @ Pearlthought (Jun 2026)
+- Built backend applications covering input handling, validation and structured control flow
+- Learned Git-based version control and deployment workflows for shipping backend projects
+
+**Operations & Content Intern** @ Persist Ventures (Jan – Feb 2026, Remote)
+- Led a team of interns, delegating tasks and managing deliverables
+- Oversaw content creation pipelines and coordinated team output to meet deadlines
+
+**Java Developer Intern** @ Cognifyz Technologies (Jun – Aug 2025, Remote)
+- Developed 5+ Java applications covering OOP, data structures, file I/O and multithreading
+- Built modular Java code and applied iterative code review feedback
 
 ---
 
 ## 🎓 Education
 
-**Bachelor of Technology** in Computer Science & Engineering  
-**Mody University of Science & Technology** (2023 – 2027)  
-*Rajasthan, India*
+**Bachelor of Technology** in Computer Science & Engineering
+**Mody University of Science & Technology** (2023 – 2027), Rajasthan, India
 
-**Coursework**: Data Structures, DBMS, Algorithms, OOP, OS, Networks, Full Stack Development
+**Relevant Coursework:** Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Computer Networks, Operating Systems
 
 ---
 
@@ -235,7 +274,7 @@ kelly = {
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kellyyadav&layout=compact&theme=radical&hide_border=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kellyyadav&theme=radical&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=kellyyadav&theme=radical&hide_border=true)
 
 </div>
 
@@ -243,11 +282,10 @@ kelly = {
 
 ## 🎯 What's Next?
 
-- 🔬 Exploring **Advanced AI Integration** with large language models
-- 🚀 Building **Scalable Backend Systems** with microservices
-- 🤝 **Open to collaborations** on interesting projects
-- 📚 Contributing to **Open Source**
-- 🎮 Expanding **CodeArena** with more features
+- 🔬 Deepening **system design** skills: scalable architecture, caching, and deployment patterns
+- 🚀 Moving CaloriQ's AI calls behind a **serverless route** to secure the API key
+- 🤝 Open to **internships, full-time roles and collaborations**
+- 📚 Contributing to **open source**
 
 ---
 
@@ -255,12 +293,12 @@ kelly = {
 
 <div align="center">
 
-**I'm always excited to talk about coding, AI, design, or just coding ! ☕**
+**Always happy to talk about backend engineering, AI integration, or good chai ☕**
 
 [![Email](https://img.shields.io/badge/Email-yadavkelly9@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yadavkelly9@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-kelly--yadav.github.io-blue?style=for-the-badge&logo=firefox&logoColor=white)](https://kelly-yadav.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kelly--yadav-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kelly-yadav-94435533a)
 [![GitHub](https://img.shields.io/badge/GitHub-kellyyadav-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kellyyadav)
+[![LeetCode](https://img.shields.io/badge/LeetCode-kellyyadav-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/kellyyadav/)
 [![Phone](https://img.shields.io/badge/Phone-%2B91%207251814853-green?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+917251814853)
 
 </div>
@@ -269,7 +307,7 @@ kelly = {
 
 <div align="center">
 
-### 💜 Built with passion, coffee, and a whole lot of crochet breaks! 🧶
+### 💜 Built with passion, chai, and a few crochet breaks! 🧶
 
 ⭐ **If you find my work interesting, consider giving it a star!**
 
